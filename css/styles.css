@@ -1,4 +1,14 @@
-#results, .question2, .alert.alert-success{
+body{
+  background: url(img/languages3.png);
+}
+
+h4{
+  text-shadow: 3px 3px white;
+}
+.well{
+  background-color: coral;
+}
+#results, .question2, .question2b,.question3,.lastquestion,.alert.alert-success,p.maybe{
   display: none;
 }
 

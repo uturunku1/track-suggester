@@ -12,14 +12,17 @@
     <div class="container-fluid">
       <h1><center><u>Track Suggester</u></center></h1>
       <br>
-      <h4>The purpose of this quick-simple quiz is to give you an idea of what programming language might be best suited for you. We advice you to do your own research about the pros and cons of each of these programming languages you are being tested for:</h4>
-      <ul>
-        <li>Ruby</li>
-        <li>PHP</li>
-        <li>C #</li>
-        <li>Java</li>
-      </ul>
       <br>
+      <br>
+      <h4>The purpose of this quick-simple quiz is to give you an idea of what programming language might be best suited for you. We advice you to do your own research about the pros and cons of each of these programming languages you are being tested for:
+        <ul>
+          <li>Ruby</li>
+          <li>PHP</li>
+          <li>C #</li>
+          <li>Java</li>
+        </ul>
+      </h4>
+
       <br>
       <div class="well">
         <form id="quiz">
@@ -53,12 +56,76 @@
               </label>
             </div>
           </div>
+          <div class="question2b">
+            <p>Which of this two options sounds more appealing to you?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="cjavaphp" value="cjava" checked>
+                Working on mobile and desktop applications.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="cjavaphp" value="PHP">
+                Focusing on dynamic website content (within the confines of HTMl) and collecting data for the webpage.
+              </label>
+            </div>
+          </div>
+          <div class="question3">
+            <p>What would you prefer?:</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="cjava" value="C#" checked>
+                Developing desktop applications for Windows.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="cjava" value="Java">
+                Developing mobile applications for Android devices.
+              </label>
+            </div>
+          </div>
+          <div class="lastquestion">
+            <p>Have you played around with one of these programming languages before AND like it?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="all" value="Ruby" checked>
+                Ruby
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="all" value="PHP">
+                PHP
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="all" value="C#">
+                C#
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="all" value="Java">
+                Java
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="all" value="none">
+                None
+              </label>
+            </div>
+          </div>
           <br>
           <button type="submit" class="btn">Next</button>
         </form>
 
         <form id="results">
           <p>Done! You should study <span class="language"></span> then!</p>
+          <p class="maybe">And you should consider <span class="language2"></span>, since you have tried before and liked it.</p>
           <p>Please fill out this information so we can send you your results:</p>
           <br>
           <div class="form-group">
@@ -73,7 +140,7 @@
         </form>
 
         <div class="alert alert-success">
-          <p>Thanks for taking this quiz, <span class="name"></span>!. We have sent your results to the following e-mail address: <span class="email"></span></p>
+          <h3>Thanks for taking this quiz, <span class="name"></span>!. We have sent your results to the following e-mail address: <span class="email"></span></h3>
         </div>
       </div>
     </div>
