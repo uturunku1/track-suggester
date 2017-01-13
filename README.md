@@ -12,8 +12,9 @@ _This is a quick test to figure out what programming language to study at Epicod
 
 ## Setup/Installation Requirements
 
-* _To download and install this program, just clone the repository. Something like this:_
-     $ git clone https://github.com/uturunku1/track-suggester.git
+* _To download and install this program, just clone the repository.
+Something like this:_ $ git clone https://github.com/uturunku1/track-suggester.git
+_After the clone, go to the folder titled "track-suggester" and open index.html in your browser.
 * _Also you can take the quiz going directly to our site or gh-pages: https://uturunku1.github.io/track-suggester/_
 
 ## Support and contact details
