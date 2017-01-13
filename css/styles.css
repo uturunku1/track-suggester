@@ -1,0 +1,12 @@
+#results, .question2, .alert.alert-success{
+  display: none;
+}
+
+form{
+  text-align: center;
+}
+
+span{
+  text-decoration: underline;
+  font-weight: bold;
+}

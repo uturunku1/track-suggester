@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1><center><u>Track Suggester</u></center></h1>
+      <br>
+      <h4>The purpose of this quick-simple quiz is to give you an idea of what programming language might be best suited for you. We advice you to do your own research about the pros and cons of each of these programming languages you are being tested for:</h4>
+      <ul>
+        <li>Ruby</li>
+        <li>PHP</li>
+        <li>C #</li>
+        <li>Java</li>
+      </ul>
+      <br>
+      <br>
+      <div class="well">
+        <form id="quiz">
+          <div class="question1">
+            <p>Are you more interested in working for a Start-Up or for a large company?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="workplace" value="startup" checked>
+                Start-up
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="workplace" value="company">
+                Large Company
+              </label>
+            </div>
+          </div>
+          <div class="question2">
+            <p>Are you more interested in developing web applications or developing content for websites?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="rubyvsphp" value="Ruby" checked>
+                Web applications
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="rubyvsphp" value="PHP">
+                Content for websites
+              </label>
+            </div>
+          </div>
+          <br>
+          <button type="submit" class="btn">Next</button>
+        </form>
+
+        <form id="results">
+          <p>Done! You should study <span class="language"></span> then!</p>
+          <p>Please fill out this information so we can send you your results:</p>
+          <br>
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail address:</label>
+            <input id="email" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn btn-success">Send</button>
+        </form>
+
+        <div class="alert alert-success">
+          <p>Thanks for taking this quiz, <span class="name"></span>!. We have sent your results to the following e-mail address: <span class="email"></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
