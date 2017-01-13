@@ -4,7 +4,7 @@
 
 #### By _**Stella Huayhuaca**_
 
-![screenshot](img/language3.png)
+![screenshot](css/img/languages.jpg)
 
 ## Description
 
@@ -13,8 +13,8 @@ _This is a quick test to figure out what programming language to study at Epicod
 ## Setup/Installation Requirements
 
 * _To download and install this program, just clone the repository. Something like this:_
-$ git clone https://github.com/uturunku1/track-suggester.git
-* _Also you can take the quiz going directly to our site or gh-pages: https://uturunku1.github.io/track-suggester/
+     $ git clone https://github.com/uturunku1/track-suggester.git
+* _Also you can take the quiz going directly to our site or gh-pages: https://uturunku1.github.io/track-suggester/_
 
 ## Support and contact details
 
