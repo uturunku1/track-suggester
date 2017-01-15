@@ -85,15 +85,17 @@ $(document).ready(function() {
       });
     }
   });
-
-
   $("form#results").submit(function(event) {
     event.preventDefault();
     var name= $("input#name").val();
     var email= $("input#email").val();
-    $(".name").text(name);
-    $(".email").text(email);
-    $("form#results").hide();
-    $(".alert.alert-success").show();
+    if (name && email) {
+      $(".name").text(name);
+      $(".email").text(email);
+      $("form#results").hide();
+      $(".alert.alert-success").slideDown("slow");
+    } else {
+      alert("You need to fill out both fields.")
+    }
   });
 });
